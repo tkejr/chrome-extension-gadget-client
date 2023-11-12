@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Gadget Extension",
+  "version": "1.0",
+  "description": "Describe your extension here.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
