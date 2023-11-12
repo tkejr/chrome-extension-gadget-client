@@ -23,7 +23,23 @@ body {
 .container {
   box-sizing: border-box; /* This ensures padding and borders are included in the total width and height */
   width: 15rem;
-  height: 15rem;
+  height: 25rem;
   padding: 1rem; /* Example padding */
   border: 1px solid black; /* Example border */
+}
+
+.hover-scrollbar:hover {
+  -webkit-scrollbar: auto; /* for Chrome, Safari, and Opera */
+  scrollbar-width: auto; /* for Firefox */
+  overflow-y: scroll; /* Show scrollbar */
+}
+
+/* Hide scrollbar when not hovering */
+.hover-scrollbar::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.hover-scrollbar {
+  scrollbar-width: none; /* for Firefox */
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
 }
