@@ -1,6 +1,6 @@
 import { Client } from "@gadget-client/chrome-ext";
 export const api = new Client({
-  authenticationMode: { browserSession: true },
+  authenticationMode: { anonymous: true },
 });
 
 // Fetch the app name using the Graphql API
